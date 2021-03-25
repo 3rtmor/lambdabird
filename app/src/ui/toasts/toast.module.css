@@ -1,0 +1,39 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 320px;
+    z-index: 1000;
+    padding: 1rem;
+}
+
+.root {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(126, 142, 177, 0.12);
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    transform: scale(0.5);
+    transition: all 0.2s ease-out;
+    margin: 0.5rem 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button {
+    margin-left: 0.5rem;
+    background: #000;
+    color: #ff0000;
+    text-transform: uppercase;
+}

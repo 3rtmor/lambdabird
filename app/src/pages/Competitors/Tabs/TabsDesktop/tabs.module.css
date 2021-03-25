@@ -1,0 +1,22 @@
+.button_root {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+}
+
+.button {
+    width: 50%;
+    padding: 2rem 4rem;
+    border: 2px solid #ff7d1f;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.button_active {
+    background: #ff7d1f;
+    color: #24262e;
+}

@@ -1,0 +1,18 @@
+.button_root {
+    padding: 0 1rem;
+}
+
+.button {
+    width: 100%;
+    padding: 2rem 4rem;
+    border: 2px solid #ff7d1f;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button_active {
+    background: #ff7d1f;
+    color: #24262e;
+}
